@@ -1,0 +1,1 @@
+# service-script-docker-openfire
