@@ -49,7 +49,7 @@ fi
 
 execCommand() {
 	OLD_PWD=`pwd`
-	cd $OPENFIRE_HOME/bin
+	cd /opt/openfire/bin
 	CMD="/opt/openfire/bin/openfire $1"
 	su -c "$CMD" $OPENFIRE_USER &
 	sleep 1 # allows prompt to return
